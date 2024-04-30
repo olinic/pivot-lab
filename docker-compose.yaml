@@ -1,0 +1,60 @@
+services:
+  host1:
+    build: entryhost/.
+    tty: true
+    ports:
+      - 127.0.0.1:2222:22
+    networks:
+      net1:
+        ipv4_address: 172.16.222.11
+      net2:
+        ipv4_address: 172.16.15.11
+  host2:
+    build: otherhosts/.
+    tty: true
+    networks:
+      net2:
+        ipv4_address: 172.16.15.22
+      net3:
+        ipv4_address: 10.5.4.22
+  host3:
+    build: otherhosts/.
+    tty: true
+    networks:
+      net3:
+        ipv4_address: 10.5.4.33
+      net4:
+        ipv4_address: 10.7.8.33
+  host4:
+    build: otherhosts/.
+    tty: true
+    networks:
+      net4:
+        ipv4_address: 10.7.8.44
+
+
+networks:
+  net1:
+    driver: bridge
+    ipam:
+      config:
+       - subnet: 172.16.222.0/24
+         gateway: 172.16.222.1
+  net2:
+    driver: bridge
+    ipam:
+      config:
+       - subnet: 172.16.15.0/24
+         gateway: 172.16.15.1
+  net3:
+    driver: bridge
+    ipam:
+      config:
+       - subnet: 10.5.4.0/24
+         gateway: 10.5.4.1
+  net4:
+    driver: bridge
+    ipam:
+      config:
+       - subnet: 10.7.8.0/24
+         gateway: 10.7.8.1

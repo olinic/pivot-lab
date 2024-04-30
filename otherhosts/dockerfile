@@ -1,0 +1,8 @@
+FROM ubuntu:latest
+RUN apt-get update && apt-get install -y openssh-server iproute2 iputils-ping 
+RUN mkdir /var/run/sshd
+RUN useradd -m -s /bin/bash sam
+RUN echo "sam:iam" | chpasswd
+EXPOSE 22
+# Start SSH server
+CMD ["/usr/sbin/sshd", "-D"]
