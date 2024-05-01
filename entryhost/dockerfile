@@ -3,8 +3,8 @@ RUN apt-get update && apt-get install -y openssh-server iproute2 iputils-ping pr
 RUN mkdir /var/run/sshd
 RUN useradd -m -s /bin/bash sam
 RUN echo "sam:iam" | chpasswd
-RUN echo "#socks4  127.0.0.1 9051" >> /etc/proxychains4.conf
-RUN echo "#socks4  172.16.15.22 9050" >> /etc/proxychains4.conf
+COPY pivot-*.conf /home/sam/
+RUN chown sam: /home/sam/pivot-*.conf
 RUN chmod 666 /etc/proxychains4.conf
 EXPOSE 22
 # Start SSH server

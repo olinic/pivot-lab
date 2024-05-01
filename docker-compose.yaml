@@ -31,6 +31,14 @@ services:
     networks:
       net4:
         ipv4_address: 10.7.8.44
+      net5:
+        ipv4_address: 10.77.88.44
+  host5:
+    build: otherhosts/.
+    tty: true
+    networks:
+      net5:
+        ipv4_address: 10.77.88.55
 
 
 networks:
@@ -58,3 +66,9 @@ networks:
       config:
        - subnet: 10.7.8.0/24
          gateway: 10.7.8.1
+  net5:
+    driver: bridge
+    ipam:
+      config:
+       - subnet: 10.77.88.0/24
+         gateway: 10.77.88.1
