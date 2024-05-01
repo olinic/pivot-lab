@@ -1,0 +1,281 @@
+<mxfile host="app.diagrams.net" modified="2024-05-01T15:35:35.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="pa4DvoJhEYAfvgOxmXAH" version="24.3.1" type="device">
+  <diagram name="Page-1" id="nx87WHS0zUf4_XjafmUd">
+    <mxGraphModel dx="1536" dy="868" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AU1vxYE2olVwv8mmauUp-4" value="host1&lt;div style=&quot;font-size: 14px;&quot;&gt;172.16.222.11&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;172.16.15.11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2379" y="223" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=7;strokeColor=#FF2A00;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="AU1vxYE2olVwv8mmauUp-6" parent="1" target="AU1vxYE2olVwv8mmauUp-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2555" y="591" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2553" y="308" />
+              <mxPoint x="2553" y="682" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-22" value="proxychains -f pivot-host2.conf ssh 10.5.4.33&lt;div&gt;ssh -D *:9050 10.7.8.44&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="AU1vxYE2olVwv8mmauUp-5">
+          <mxGeometry x="0.386" y="1" relative="1" as="geometry">
+            <mxPoint x="-91" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-68" value="host1&lt;div style=&quot;font-size: 14px;&quot;&gt;172.16.222.11&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;172.16.15.11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="220" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=7;strokeColor=#FF2A00;dashed=1;dashPattern=1 1;" parent="1" source="2Cra7BhOIpoem1QS6vFA-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1676" y="588" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2Cra7BhOIpoem1QS6vFA-1" target="2Cra7BhOIpoem1QS6vFA-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-85" value="ssh -D 9050 172.16.15.22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="2Cra7BhOIpoem1QS6vFA-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.3943" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-1" value="host1&lt;div style=&quot;font-size: 14px;&quot;&gt;172.16.222.11&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;172.16.15.11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="70" y="220" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=7;strokeColor=#FF2A00;dashed=1;dashPattern=1 1;" parent="1" source="2Cra7BhOIpoem1QS6vFA-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-3" value="Port 9050" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="138" y="290" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-4" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host2&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;172.16.15.22&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.5.4.22&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="230" y="390" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-5" value="&amp;nbsp;Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="218" y="457" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-13" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host4&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.7.8.44&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="450" y="800" width="153" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-10" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host3&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.5.4.33&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.7.8.33&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="330" y="620" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-22" value="Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="320" y="700" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-25" value="Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="440" y="880" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2Cra7BhOIpoem1QS6vFA-55" target="2Cra7BhOIpoem1QS6vFA-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-81" value="ssh -D 9050 172.16.15.22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="2Cra7BhOIpoem1QS6vFA-54" vertex="1" connectable="0">
+          <mxGeometry x="-0.3943" y="2" relative="1" as="geometry">
+            <mxPoint x="-33" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-55" value="host1&lt;div style=&quot;font-size: 14px;&quot;&gt;172.16.222.11&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;172.16.15.11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="800" y="220" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=7;strokeColor=#FF2A00;dashed=1;dashPattern=1 1;" parent="1" source="2Cra7BhOIpoem1QS6vFA-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="961" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-57" value="Port 9050" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#FF2A00;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="870" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2Cra7BhOIpoem1QS6vFA-58" target="2Cra7BhOIpoem1QS6vFA-64" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-109" value="ssh -D *:9050 10.5.4.33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="2Cra7BhOIpoem1QS6vFA-108" vertex="1" connectable="0">
+          <mxGeometry x="-0.4447" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-58" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host2&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;172.16.15.22&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.5.4.22&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="960" y="390" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-59" value="&amp;nbsp;Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="950" y="455" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=7;strokeColor=#3399FF;dashed=1;dashPattern=1 1;" parent="1" source="2Cra7BhOIpoem1QS6vFA-61" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-61" value="Port 9050" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#3399FF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="950" y="500" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-62" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host4&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.7.8.44&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="800" width="155" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-63" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host3&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.5.4.33&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.7.8.33&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="620" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-64" value="Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="700" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-65" value="Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="880" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#3399FF;strokeWidth=7;" parent="1" source="2Cra7BhOIpoem1QS6vFA-68" target="2Cra7BhOIpoem1QS6vFA-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2Cra7BhOIpoem1QS6vFA-68" target="2Cra7BhOIpoem1QS6vFA-72" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-88" value="ssh -D 9050 172.16.15.22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=default;" parent="2Cra7BhOIpoem1QS6vFA-67" vertex="1" connectable="0">
+          <mxGeometry x="-0.4286" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-70" value="Port 9050" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1567" y="290" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2Cra7BhOIpoem1QS6vFA-71" target="2Cra7BhOIpoem1QS6vFA-77" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-111" value="ssh -D *:9050 10.5.4.33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="2Cra7BhOIpoem1QS6vFA-110" vertex="1" connectable="0">
+          <mxGeometry x="-0.4071" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-71" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host2&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;172.16.15.22&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.5.4.22&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="390" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-72" value="&amp;nbsp;Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1650" y="455" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#3399FF;strokeWidth=7;" parent="1" source="2Cra7BhOIpoem1QS6vFA-74" target="2Cra7BhOIpoem1QS6vFA-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-90" value="proxychains -f pivot-host3.conf ssh 10.7.8.44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="2Cra7BhOIpoem1QS6vFA-73" vertex="1" connectable="0">
+          <mxGeometry x="0.316" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-74" value="Port 9050" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#3399FF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1650" y="500" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-75" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host4&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.7.8.44&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="800" width="145" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-76" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host3&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.5.4.33&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.7.8.33&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="620" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-77" value="Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="700" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-78" value="Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1870" y="880" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-92" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;pivot-host3.conf&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;socks5 172.16.15.22 9050&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1877" y="434" width="206" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2Cra7BhOIpoem1QS6vFA-95" target="2Cra7BhOIpoem1QS6vFA-100" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-94" value="ssh -D 9050 172.16.15.22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="2Cra7BhOIpoem1QS6vFA-93" vertex="1" connectable="0">
+          <mxGeometry x="-0.3943" y="2" relative="1" as="geometry">
+            <mxPoint x="-9" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-95" value="host1&lt;div style=&quot;font-size: 14px;&quot;&gt;172.16.222.11&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;172.16.15.11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="210" y="1088" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=7;strokeColor=#FF2A00;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2Cra7BhOIpoem1QS6vFA-98" target="2Cra7BhOIpoem1QS6vFA-105" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="1238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-97" value="proxychains -f pivot-host2.conf ssh 10.5.4.33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="2Cra7BhOIpoem1QS6vFA-96" vertex="1" connectable="0">
+          <mxGeometry x="0.3808" y="1" relative="1" as="geometry">
+            <mxPoint y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-98" value="Port 9050" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#FF2A00;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="281" y="1158" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-99" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host2&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;172.16.15.22&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.5.4.22&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="370" y="1258" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-100" value="&amp;nbsp;Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="361" y="1326" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-103" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host4&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.7.8.44&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="547" y="1655" width="152" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-104" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host3&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.5.4.33&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.7.8.33&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1488" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-105" value="Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="460" y="1568" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Cra7BhOIpoem1QS6vFA-106" value="Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="537" y="1718" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="AU1vxYE2olVwv8mmauUp-4" target="AU1vxYE2olVwv8mmauUp-10" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-3" value="ssh -D 9050 172.16.15.22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="AU1vxYE2olVwv8mmauUp-2">
+          <mxGeometry x="-0.4286" relative="1" as="geometry">
+            <mxPoint x="-12" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-6" value="Port 9050" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2452" y="293" width="74" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-9" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host2&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;172.16.15.22&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.5.4.22&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2539" y="393" width="170" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-10" value="&amp;nbsp;Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2529" y="464" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-15" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host3&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.5.4.33&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.7.8.33&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2607" y="544" width="160" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF2A00;strokeWidth=7;" edge="1" parent="1" source="AU1vxYE2olVwv8mmauUp-13" target="AU1vxYE2olVwv8mmauUp-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2719" y="682" />
+              <mxPoint x="2719" y="952" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-23" value="proxychains -f pivot-chain.conf ssh 10.77.88.55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="AU1vxYE2olVwv8mmauUp-21">
+          <mxGeometry x="0.512" y="4" relative="1" as="geometry">
+            <mxPoint x="-106" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-13" value="Port 9050" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#FF2A00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2597" y="667" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-16" value="Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="2597" y="624" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-18" value="pivot-chain.conf&lt;div style=&quot;font-size: 16px;&quot;&gt;socks5 127.0.0.1 9050&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;socks5 10.5.4.33 9050&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2789" y="607" width="179" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-19" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host5&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;10.77.88.55&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2773" y="874" width="140" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-20" value="Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="2763" y="937" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-14" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;host4&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.7.8.44&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;10.77.88.44&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2687" y="731" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-17" value="Port 22" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2677" y="811" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-24" value="pivot-host2.conf&lt;div style=&quot;font-size: 16px;&quot;&gt;socks5 127.0.0.1 9050&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2649" y="258" width="179" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1vxYE2olVwv8mmauUp-25" value="pivot-host2.conf&lt;div style=&quot;font-size: 16px;&quot;&gt;socks5 127.0.0.1 9050&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="487" y="1112" width="179" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
